@@ -155,70 +155,71 @@
 	tell application "iTerm" to activate
 
 	tell application "System Events"
+		keystroke "k" using command down
 		keystroke "#"
-		delay 0.1
-		keystroke " "
-		delay 0.2
-		keystroke "I"
-		delay 0.1
-		keystroke "n"
 		delay 0.0
-		keystroke "s"
+		keystroke " "
+		delay 0.0
+		keystroke "I"
+		delay 0.0
+		keystroke "n"
 		delay 0.1
+		keystroke "s"
+		delay 0.0
 		keystroke "t"
 		delay 0.0
 		keystroke "a"
-		delay 0.2
+		delay 0.1
 		keystroke "l"
-		delay 0.2
+		delay 0.1
 		keystroke "l"
-		delay 0.0
+		delay 0.1
 		keystroke " "
 		delay 0.0
 		keystroke "D"
-		delay 0.2
-		keystroke "D"
-		delay 0.2
-		keystroke "E"
-		delay 0.2
-		keystroke "V"
 		delay 0.0
+		keystroke "D"
+		delay 0.0
+		keystroke "E"
+		delay 0.0
+		keystroke "V"
+		delay 0.1
 		key code 36
 		delay 0.1
 		keystroke "b"
-		delay 0.2
+		delay 0.0
 		keystroke "r"
-		delay 0.2
+		delay 0.0
 		keystroke "e"
 		delay 0.0
 		keystroke "w"
 		delay 0.0
 		keystroke " "
-		delay 0.1
+		delay 0.0
 		keystroke "i"
 		delay 0.0
 		keystroke "n"
-		delay 0.2
+		delay 0.0
 		keystroke "s"
 		delay 0.1
 		keystroke "t"
-		delay 0.2
+		delay 0.0
 		keystroke "a"
 		delay 0.1
 		keystroke "l"
 		delay 0.1
 		keystroke "l"
-		delay 0.1
+		delay 0.0
 		keystroke " "
-		delay 0.2
+		delay 0.0
 		keystroke "d"
-		delay 0.2
+		delay 0.0
 		keystroke "d"
 		delay 0.0
 		keystroke "e"
-		delay 0.0
+		delay 0.1
 		keystroke "v"
-		delay 0.2
+		delay 0.1
 		key code 36
 		delay 0.0
 	end tell
@@ -289,7 +290,7 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>DA80CE95-77F3-416A-A1DA-7B6B02B839B0</key>
+		<key>157D7EB4-82E0-4926-B200-4DE4267271E8</key>
 		<dict>
 			<key>from</key>
 			<string>6A22D6E8-7DA1-4DE0-BE1E-A83342E57A73 - 6A22D6E8-7DA1-4DE0-BE1E-A83342E57A73</string>

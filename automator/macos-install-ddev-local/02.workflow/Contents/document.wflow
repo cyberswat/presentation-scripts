@@ -155,170 +155,171 @@
 	tell application "iTerm" to activate
 
 	tell application "System Events"
+		keystroke "k" using command down
 		keystroke "#"
-		delay 0.1
-		keystroke " "
 		delay 0.0
+		keystroke " "
+		delay 0.1
 		keystroke "A"
-		delay 0.2
-		keystroke "d"
-		delay 0.0
+		delay 0.1
 		keystroke "d"
 		delay 0.1
-		keystroke " "
-		delay 0.2
-		keystroke "D"
+		keystroke "d"
 		delay 0.0
+		keystroke " "
+		delay 0.1
+		keystroke "D"
+		delay 0.1
 		keystroke "D"
 		delay 0.0
 		keystroke "E"
-		delay 0.2
+		delay 0.0
 		keystroke "V"
-		delay 0.2
+		delay 0.0
 		keystroke " "
-		delay 0.2
+		delay 0.0
 		keystroke "t"
 		delay 0.0
 		keystroke "o"
-		delay 0.0
-		keystroke " "
-		delay 0.0
-		keystroke "H"
 		delay 0.1
+		keystroke " "
+		delay 0.1
+		keystroke "H"
+		delay 0.0
 		keystroke "o"
-		delay 0.2
+		delay 0.0
 		keystroke "m"
-		delay 0.2
+		delay 0.1
 		keystroke "e"
-		delay 0.0
+		delay 0.1
 		keystroke "b"
-		delay 0.0
+		delay 0.1
 		keystroke "r"
-		delay 0.2
+		delay 0.1
 		keystroke "e"
 		delay 0.0
 		keystroke "w"
-		delay 0.2
+		delay 0.0
 		keystroke " "
-		delay 0.1
+		delay 0.0
 		keystroke "f"
 		delay 0.0
 		keystroke "o"
-		delay 0.2
+		delay 0.1
 		keystroke "r"
 		delay 0.1
 		keystroke " "
-		delay 0.2
+		delay 0.1
 		keystroke "i"
 		delay 0.1
 		keystroke "n"
-		delay 0.2
+		delay 0.1
 		keystroke "s"
+		delay 0.1
+		keystroke "t"
+		delay 0.1
+		keystroke "a"
+		delay 0.0
+		keystroke "l"
+		delay 0.1
+		keystroke "l"
+		delay 0.1
+		keystroke "a"
 		delay 0.0
 		keystroke "t"
-		delay 0.2
-		keystroke "a"
-		delay 0.2
-		keystroke "l"
-		delay 0.2
-		keystroke "l"
-		delay 0.2
-		keystroke "a"
-		delay 0.2
-		keystroke "t"
-		delay 0.2
+		delay 0.0
 		keystroke "i"
 		delay 0.0
 		keystroke "o"
 		delay 0.1
 		keystroke "n"
-		delay 0.1
+		delay 0.0
 		keystroke " "
-		delay 0.2
+		delay 0.0
 		keystroke "a"
-		delay 0.2
-		keystroke "n"
 		delay 0.1
+		keystroke "n"
+		delay 0.0
 		keystroke "d"
 		delay 0.1
 		keystroke " "
-		delay 0.2
+		delay 0.0
 		keystroke "u"
 		delay 0.0
 		keystroke "p"
-		delay 0.2
-		keystroke "g"
-		delay 0.2
-		keystroke "r"
 		delay 0.1
+		keystroke "g"
+		delay 0.1
+		keystroke "r"
+		delay 0.0
 		keystroke "a"
-		delay 0.2
+		delay 0.0
 		keystroke "d"
 		delay 0.1
 		keystroke "e"
-		delay 0.2
+		delay 0.0
 		keystroke " "
 		delay 0.0
 		keystroke "m"
-		delay 0.0
+		delay 0.1
 		keystroke "a"
 		delay 0.1
 		keystroke "n"
-		delay 0.2
-		keystroke "a"
-		delay 0.2
-		keystroke "g"
-		delay 0.1
-		keystroke "e"
 		delay 0.0
+		keystroke "a"
+		delay 0.0
+		keystroke "g"
+		delay 0.0
+		keystroke "e"
+		delay 0.1
 		keystroke "m"
 		delay 0.1
 		keystroke "e"
-		delay 0.2
+		delay 0.0
 		keystroke "n"
-		delay 0.1
+		delay 0.0
 		keystroke "t"
-		delay 0.2
+		delay 0.0
 		keystroke "."
-		delay 0.2
+		delay 0.0
 		key code 36
-		delay 0.2
+		delay 0.1
 		keystroke "b"
-		delay 0.0
+		delay 0.1
 		keystroke "r"
-		delay 0.2
+		delay 0.1
 		keystroke "e"
-		delay 0.2
-		keystroke "w"
-		delay 0.2
-		keystroke " "
 		delay 0.0
+		keystroke "w"
+		delay 0.0
+		keystroke " "
+		delay 0.1
 		keystroke "t"
 		delay 0.0
 		keystroke "a"
-		delay 0.2
+		delay 0.0
 		keystroke "p"
 		delay 0.0
 		keystroke " "
-		delay 0.1
+		delay 0.0
 		keystroke "d"
 		delay 0.0
 		keystroke "r"
-		delay 0.1
+		delay 0.0
 		keystroke "u"
 		delay 0.0
 		keystroke "d"
-		delay 0.2
-		keystroke "/"
 		delay 0.1
+		keystroke "/"
+		delay 0.0
 		keystroke "d"
 		delay 0.0
 		keystroke "d"
 		delay 0.1
 		keystroke "e"
-		delay 0.1
+		delay 0.0
 		keystroke "v"
-		delay 0.2
+		delay 0.0
 		key code 36
 		delay 0.0
 	end tell
@@ -389,7 +390,7 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>843DA649-B077-484B-9A70-8CC71ADEE7A0</key>
+		<key>382D6C93-00B8-4790-94D0-9F2B94A3BC9D</key>
 		<dict>
 			<key>from</key>
 			<string>6A22D6E8-7DA1-4DE0-BE1E-A83342E57A73 - 6A22D6E8-7DA1-4DE0-BE1E-A83342E57A73</string>

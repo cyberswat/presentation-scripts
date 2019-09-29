@@ -155,6 +155,7 @@
 	tell application "iTerm" to activate
 
 	tell application "System Events"
+		keystroke "k" using command down
 		keystroke "#"
 		delay 0.1
 		keystroke " "
@@ -162,35 +163,35 @@
 		keystroke "V"
 		delay 0.0
 		keystroke "e"
-		delay 0.2
+		delay 0.1
 		keystroke "r"
-		delay 0.0
+		delay 0.1
 		keystroke "i"
 		delay 0.0
 		keystroke "f"
-		delay 0.2
+		delay 0.0
 		keystroke "y"
-		delay 0.0
+		delay 0.1
 		keystroke " "
-		delay 0.0
+		delay 0.1
 		keystroke "t"
 		delay 0.0
 		keystroke "h"
-		delay 0.2
+		delay 0.0
 		keystroke "a"
 		delay 0.1
 		keystroke "t"
-		delay 0.0
+		delay 0.1
 		keystroke " "
+		delay 0.1
+		keystroke "D"
+		delay 0.1
+		keystroke "D"
 		delay 0.0
-		keystroke "D"
-		delay 0.1
-		keystroke "D"
-		delay 0.1
 		keystroke "E"
-		delay 0.1
+		delay 0.0
 		keystroke "V"
-		delay 0.2
+		delay 0.0
 		keystroke " "
 		delay 0.1
 		keystroke "i"
@@ -198,7 +199,7 @@
 		keystroke "s"
 		delay 0.1
 		keystroke " "
-		delay 0.0
+		delay 0.1
 		keystroke "i"
 		delay 0.0
 		keystroke "n"
@@ -206,43 +207,43 @@
 		keystroke "s"
 		delay 0.0
 		keystroke "t"
-		delay 0.2
+		delay 0.1
 		keystroke "a"
-		delay 0.0
-		keystroke "l"
-		delay 0.2
+		delay 0.1
 		keystroke "l"
 		delay 0.0
+		keystroke "l"
+		delay 0.1
 		keystroke "e"
-		delay 0.2
+		delay 0.0
 		keystroke "d"
-		delay 0.2
+		delay 0.0
 		key code 36
-		delay 0.2
+		delay 0.0
 		keystroke "d"
-		delay 0.2
+		delay 0.1
 		keystroke "d"
-		delay 0.2
+		delay 0.0
 		keystroke "e"
-		delay 0.2
+		delay 0.1
 		keystroke "v"
-		delay 0.2
+		delay 0.1
 		keystroke " "
 		delay 0.0
 		keystroke "v"
 		delay 0.1
 		keystroke "e"
-		delay 0.2
+		delay 0.0
 		keystroke "r"
 		delay 0.1
 		keystroke "s"
 		delay 0.1
 		keystroke "i"
-		delay 0.2
-		keystroke "o"
 		delay 0.1
-		keystroke "n"
+		keystroke "o"
 		delay 0.0
+		keystroke "n"
+		delay 0.1
 		key code 36
 		delay 0.1
 	end tell
@@ -313,7 +314,7 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>43E68BE2-A65D-4038-A93E-BBF749884C21</key>
+		<key>97B3CE9B-46D9-496D-825F-7129911ED25B</key>
 		<dict>
 			<key>from</key>
 			<string>6A22D6E8-7DA1-4DE0-BE1E-A83342E57A73 - 6A22D6E8-7DA1-4DE0-BE1E-A83342E57A73</string>
