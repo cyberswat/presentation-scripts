@@ -159,53 +159,53 @@
 		keystroke "#"
 		delay 0.2
 		keystroke " "
-		delay 0.1
+		delay 0.2
 		keystroke "N"
-		delay 0.0
+		delay 0.2
 		keystroke "o"
-		delay 0.2
+		delay 0.1
 		keystroke "w"
 		delay 0.2
 		keystroke " "
 		delay 0.1
 		keystroke "t"
-		delay 0.2
+		delay 0.0
 		keystroke "h"
 		delay 0.1
 		keystroke "a"
 		delay 0.1
 		keystroke "t"
-		delay 0.1
+		delay 0.2
 		keystroke " "
-		delay 0.1
-		keystroke "w"
 		delay 0.0
+		keystroke "w"
+		delay 0.1
 		keystroke "e"
-		delay 0.1
+		delay 0.0
 		keystroke " "
 		delay 0.2
 		keystroke "h"
-		delay 0.0
-		keystroke "a"
 		delay 0.2
+		keystroke "a"
+		delay 0.0
 		keystroke "v"
-		delay 0.2
+		delay 0.1
 		keystroke "e"
-		delay 0.2
+		delay 0.0
 		keystroke " "
-		delay 0.1
-		keystroke "D"
-		delay 0.0
-		keystroke "r"
-		delay 0.1
-		keystroke "u"
-		delay 0.0
-		keystroke "p"
-		delay 0.0
-		keystroke "a"
 		delay 0.2
-		keystroke "l"
+		keystroke "D"
+		delay 0.1
+		keystroke "r"
+		delay 0.2
+		keystroke "u"
+		delay 0.2
+		keystroke "p"
+		delay 0.1
+		keystroke "a"
 		delay 0.0
+		keystroke "l"
+		delay 0.2
 		keystroke "'"
 		delay 0.2
 		keystroke "s"
@@ -215,55 +215,55 @@
 		keystroke "c"
 		delay 0.1
 		keystroke "o"
-		delay 0.0
+		delay 0.1
 		keystroke "d"
-		delay 0.2
+		delay 0.0
 		keystroke "e"
 		delay 0.1
 		keystroke " "
-		delay 0.2
+		delay 0.0
 		keystroke "d"
-		delay 0.2
+		delay 0.1
 		keystroke "e"
 		delay 0.1
 		keystroke "l"
-		delay 0.0
-		keystroke "i"
 		delay 0.2
+		keystroke "i"
+		delay 0.1
 		keystroke "v"
 		delay 0.1
 		keystroke "e"
-		delay 0.2
+		delay 0.1
 		keystroke "r"
 		delay 0.1
 		keystroke "e"
-		delay 0.0
+		delay 0.1
 		keystroke "d"
-		delay 0.0
+		delay 0.1
 		keystroke " "
-		delay 0.1
+		delay 0.0
 		keystroke "t"
-		delay 0.1
+		delay 0.2
 		keystroke "h"
-		delay 0.1
+		delay 0.2
 		keystroke "r"
 		delay 0.2
 		keystroke "o"
-		delay 0.1
-		keystroke "u"
 		delay 0.0
+		keystroke "u"
+		delay 0.2
 		keystroke "g"
 		delay 0.2
 		keystroke "h"
-		delay 0.1
-		keystroke " "
-		delay 0.2
-		keystroke "c"
 		delay 0.0
+		keystroke " "
+		delay 0.0
+		keystroke "c"
+		delay 0.2
 		keystroke "o"
 		delay 0.1
 		keystroke "m"
-		delay 0.2
+		delay 0.1
 		keystroke "p"
 		delay 0.1
 		keystroke "o"
@@ -271,27 +271,27 @@
 		keystroke "s"
 		delay 0.2
 		keystroke "e"
-		delay 0.2
+		delay 0.1
 		keystroke "r"
-		delay 0.2
+		delay 0.1
 		keystroke " "
-		delay 0.2
+		delay 0.1
 		keystroke "w"
 		delay 0.2
 		keystroke "e"
-		delay 0.0
+		delay 0.2
 		keystroke "'"
-		delay 0.1
+		delay 0.2
 		keystroke "l"
 		delay 0.0
 		keystroke "l"
-		delay 0.2
-		keystroke " "
 		delay 0.1
+		keystroke " "
+		delay 0.0
 		keystroke "u"
-		delay 0.2
+		delay 0.0
 		keystroke "s"
-		delay 0.2
+		delay 0.1
 		keystroke "e"
 		delay 0.1
 		keystroke " "
@@ -301,39 +301,39 @@
 		keystroke "#"
 		delay 0.1
 		keystroke " "
-		delay 0.0
+		delay 0.2
 		keystroke "D"
 		delay 0.1
 		keystroke "D"
-		delay 0.0
+		delay 0.2
 		keystroke "E"
-		delay 0.0
+		delay 0.1
 		keystroke "V"
-		delay 0.0
+		delay 0.2
 		keystroke "-"
-		delay 0.0
+		delay 0.2
 		keystroke "L"
 		delay 0.2
 		keystroke "o"
-		delay 0.1
-		keystroke "c"
 		delay 0.0
+		keystroke "c"
+		delay 0.1
 		keystroke "a"
 		delay 0.1
 		keystroke "l"
 		delay 0.0
 		keystroke " "
-		delay 0.2
+		delay 0.0
 		keystroke "t"
-		delay 0.1
+		delay 0.0
 		keystroke "o"
-		delay 0.0
+		delay 0.1
 		keystroke " "
-		delay 0.0
-		keystroke "s"
 		delay 0.2
-		keystroke "w"
+		keystroke "s"
 		delay 0.0
+		keystroke "w"
+		delay 0.1
 		keystroke "i"
 		delay 0.2
 		keystroke "t"
@@ -343,129 +343,115 @@
 		keystroke "h"
 		delay 0.0
 		keystroke " "
-		delay 0.2
+		delay 0.0
 		keystroke "t"
 		delay 0.1
 		keystroke "h"
-		delay 0.1
-		keystroke "e"
 		delay 0.0
+		keystroke "e"
+		delay 0.2
 		keystroke " "
 		delay 0.2
 		keystroke "p"
 		delay 0.0
 		keystroke "r"
-		delay 0.1
-		keystroke "o"
 		delay 0.2
+		keystroke "o"
+		delay 0.1
 		keystroke "j"
-		delay 0.0
+		delay 0.2
 		keystroke "e"
 		delay 0.2
 		keystroke "c"
 		delay 0.0
 		keystroke "t"
-		delay 0.0
+		delay 0.1
 		keystroke " "
 		delay 0.1
 		keystroke "t"
 		delay 0.2
 		keystroke "y"
-		delay 0.0
-		keystroke "p"
-		delay 0.1
-		keystroke "e"
 		delay 0.2
+		keystroke "p"
+		delay 0.2
+		keystroke "e"
+		delay 0.1
 		keystroke "."
 		delay 0.1
 		key code 36
-		delay 0.0
-		key code 36
-		delay 0.1
-		keystroke "l"
-		delay 0.0
-		keystroke "s"
-		delay 0.0
-		keystroke " "
 		delay 0.2
-		keystroke "-"
-		delay 0.0
-		keystroke "l"
-		delay 0.0
-		keystroke "a"
-		delay 0.1
 		key code 36
-		delay 0.0
+		delay 0.2
 		keystroke "d"
-		delay 0.0
+		delay 0.1
 		keystroke "d"
 		delay 0.1
 		keystroke "e"
-		delay 0.1
-		keystroke "v"
 		delay 0.0
+		keystroke "v"
+		delay 0.1
 		keystroke " "
 		delay 0.1
 		keystroke "c"
-		delay 0.2
+		delay 0.0
 		keystroke "o"
-		delay 0.1
+		delay 0.2
 		keystroke "n"
-		delay 0.0
+		delay 0.2
 		keystroke "f"
-		delay 0.0
+		delay 0.2
 		keystroke "i"
 		delay 0.2
 		keystroke "g"
 		delay 0.2
 		keystroke " "
-		delay 0.2
-		keystroke "-"
 		delay 0.1
+		keystroke "-"
+		delay 0.2
 		keystroke "-"
 		delay 0.0
 		keystroke "p"
-		delay 0.0
+		delay 0.1
 		keystroke "r"
-		delay 0.0
+		delay 0.1
 		keystroke "o"
-		delay 0.1
+		delay 0.0
 		keystroke "j"
-		delay 0.1
+		delay 0.2
 		keystroke "e"
 		delay 0.1
 		keystroke "c"
-		delay 0.1
+		delay 0.2
 		keystroke "t"
-		delay 0.1
+		delay 0.2
 		keystroke "-"
 		delay 0.1
 		keystroke "t"
-		delay 0.0
-		keystroke "y"
-		delay 0.1
-		keystroke "p"
 		delay 0.2
+		keystroke "y"
+		delay 0.0
+		keystroke "p"
+		delay 0.1
 		keystroke "e"
 		delay 0.2
 		keystroke " "
-		delay 0.1
+		delay 0.0
 		keystroke "d"
 		delay 0.0
 		keystroke "r"
-		delay 0.0
+		delay 0.2
 		keystroke "u"
 		delay 0.2
 		keystroke "p"
 		delay 0.2
 		keystroke "a"
-		delay 0.1
+		delay 0.0
 		keystroke "l"
 		delay 0.2
 		keystroke "8"
 		delay 0.2
 		key code 36
-		delay 0.1
+		delay 0.2
 	end tell
 
 	return input
@@ -534,7 +520,7 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>799B83F3-9351-4968-AC54-39119F0B520B</key>
+		<key>358D7556-97B0-4839-92A0-11280349908F</key>
 		<dict>
 			<key>from</key>
 			<string>6A22D6E8-7DA1-4DE0-BE1E-A83342E57A73 - 6A22D6E8-7DA1-4DE0-BE1E-A83342E57A73</string>

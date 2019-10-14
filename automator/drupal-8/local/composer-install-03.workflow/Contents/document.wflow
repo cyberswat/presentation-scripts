@@ -54,6 +54,13 @@
 					<key>appPath</key>
 					<string>/Applications/iTerm.app</string>
 				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>appPath</key>
+					<string>/Applications/iTerm.app</string>
+					<key>temporary items path</key>
+					<string>/var/folders/54/17x8n1cx0k79phz13q3yrwhm0000gn/T/35BACEFA-BF6D-49C0-A7D1-0CEA36FEA8A4/1/com.apple.Automator.OpenApplication</string>
+				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.OpenApplication</string>
 				<key>CFBundleVersion</key>
@@ -150,323 +157,14 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}
-
-	tell application "iTerm" to activate
-
-	tell application "System Events"
-		keystroke "k" using command down
-		keystroke "#"
-		delay 0.1
-		keystroke " "
-		delay 0.1
-		keystroke "P"
-		delay 0.2
-		keystroke "e"
-		delay 0.2
-		keystroke "r"
-		delay 0.2
-		keystroke "f"
-		delay 0.2
-		keystroke "o"
-		delay 0.2
-		keystroke "r"
-		delay 0.2
-		keystroke "m"
-		delay 0.2
-		keystroke " "
-		delay 0.1
-		keystroke "a"
-		delay 0.0
-		keystroke " "
-		delay 0.0
-		keystroke "c"
-		delay 0.1
-		keystroke "o"
-		delay 0.2
-		keystroke "m"
-		delay 0.2
-		keystroke "p"
-		delay 0.2
-		keystroke "o"
-		delay 0.1
-		keystroke "s"
-		delay 0.0
-		keystroke "e"
-		delay 0.2
-		keystroke " "
-		delay 0.2
-		keystroke "i"
-		delay 0.2
-		keystroke "n"
-		delay 0.1
-		keystroke "s"
-		delay 0.1
-		keystroke "t"
-		delay 0.0
-		keystroke "a"
-		delay 0.1
-		keystroke "l"
-		delay 0.1
-		keystroke "l"
-		delay 0.1
-		keystroke " "
-		delay 0.0
-		keystroke "w"
-		delay 0.0
-		keystroke "i"
-		delay 0.1
-		keystroke "t"
-		delay 0.0
-		keystroke "h"
-		delay 0.2
-		keystroke " "
-		delay 0.0
-		keystroke "D"
-		delay 0.1
-		keystroke "D"
-		delay 0.1
-		keystroke "E"
-		delay 0.2
-		keystroke "V"
-		delay 0.1
-		keystroke "-"
-		delay 0.2
-		keystroke "L"
-		delay 0.2
-		keystroke "o"
-		delay 0.2
-		keystroke "c"
-		delay 0.1
-		keystroke "a"
-		delay 0.2
-		keystroke "l"
-		delay 0.1
-		keystroke "."
-		delay 0.1
-		key code 36
-		delay 0.2
-		key code 36
-		delay 0.2
-		keystroke "d"
-		delay 0.0
-		keystroke "d"
-		delay 0.2
-		keystroke "e"
-		delay 0.2
-		keystroke "v"
-		delay 0.2
-		keystroke " "
-		delay 0.1
-		keystroke "c"
-		delay 0.1
-		keystroke "o"
-		delay 0.1
-		keystroke "m"
-		delay 0.2
-		keystroke "p"
-		delay 0.0
-		keystroke "o"
-		delay 0.2
-		keystroke "s"
-		delay 0.1
-		keystroke "e"
-		delay 0.2
-		keystroke "r"
-		delay 0.1
-		keystroke " "
-		delay 0.0
-		keystroke "c"
-		delay 0.1
-		keystroke "r"
-		delay 0.1
-		keystroke "e"
-		delay 0.1
-		keystroke "a"
-		delay 0.2
-		keystroke "t"
-		delay 0.0
-		keystroke "e"
-		delay 0.0
-		keystroke " "
-		delay 0.2
-		keystroke "d"
-		delay 0.0
-		keystroke "r"
-		delay 0.0
-		keystroke "u"
-		delay 0.0
-		keystroke "p"
-		delay 0.0
-		keystroke "a"
-		delay 0.1
-		keystroke "l"
-		delay 0.1
-		keystroke "-"
-		delay 0.2
-		keystroke "c"
-		delay 0.0
-		keystroke "o"
-		delay 0.1
-		keystroke "m"
-		delay 0.2
-		keystroke "p"
-		delay 0.0
-		keystroke "o"
-		delay 0.2
-		keystroke "s"
-		delay 0.2
-		keystroke "e"
-		delay 0.2
-		keystroke "r"
-		delay 0.1
-		keystroke "/"
-		delay 0.1
-		keystroke "d"
-		delay 0.2
-		keystroke "r"
-		delay 0.1
-		keystroke "u"
-		delay 0.1
-		keystroke "p"
-		delay 0.0
-		keystroke "a"
-		delay 0.0
-		keystroke "l"
-		delay 0.2
-		keystroke "-"
-		delay 0.0
-		keystroke "p"
-		delay 0.2
-		keystroke "r"
-		delay 0.1
-		keystroke "o"
-		delay 0.2
-		keystroke "j"
-		delay 0.2
-		keystroke "e"
-		delay 0.2
-		keystroke "c"
-		delay 0.0
-		keystroke "t"
-		delay 0.2
-		keystroke ":"
-		delay 0.0
-		keystroke "8"
-		delay 0.2
-		keystroke "."
-		delay 0.0
-		keystroke "x"
-		delay 0.0
-		keystroke "-"
-		delay 0.2
-		keystroke "d"
-		delay 0.1
-		keystroke "e"
-		delay 0.1
-		keystroke "v"
-		delay 0.0
-		keystroke " "
-		delay 0.0
-		keystroke "-"
-		delay 0.1
-		keystroke "-"
-		delay 0.2
-		keystroke "s"
-		delay 0.0
-		keystroke "t"
-		delay 0.2
-		keystroke "a"
-		delay 0.2
-		keystroke "b"
-		delay 0.2
-		keystroke "i"
-		delay 0.2
-		keystroke "l"
-		delay 0.1
-		keystroke "i"
-		delay 0.1
-		keystroke "t"
-		delay 0.1
-		keystroke "y"
-		delay 0.0
-		keystroke " "
-		delay 0.1
-		keystroke "d"
-		delay 0.2
-		keystroke "e"
-		delay 0.2
-		keystroke "v"
-		delay 0.2
-		keystroke " "
-		delay 0.1
-		keystroke "-"
-		delay 0.1
-		keystroke "-"
-		delay 0.0
-		keystroke "n"
-		delay 0.0
-		keystroke "o"
-		delay 0.0
-		keystroke "-"
-		delay 0.2
-		keystroke "i"
-		delay 0.2
-		keystroke "n"
-		delay 0.1
-		keystroke "t"
-		delay 0.2
-		keystroke "e"
-		delay 0.1
-		keystroke "r"
-		delay 0.2
-		keystroke "a"
-		delay 0.2
-		keystroke "c"
-		delay 0.0
-		keystroke "t"
-		delay 0.0
-		keystroke "i"
-		delay 0.2
-		keystroke "o"
-		delay 0.0
-		keystroke "n"
-		delay 0.2
-		keystroke " "
-		delay 0.0
-		keystroke "-"
-		delay 0.1
-		keystroke "-"
-		delay 0.1
-		keystroke "p"
-		delay 0.0
-		keystroke "r"
-		delay 0.0
-		keystroke "e"
-		delay 0.2
-		keystroke "f"
-		delay 0.0
-		keystroke "e"
-		delay 0.1
-		keystroke "r"
-		delay 0.0
-		keystroke "-"
-		delay 0.1
-		keystroke "d"
-		delay 0.0
-		keystroke "i"
-		delay 0.1
-		keystroke "s"
-		delay 0.0
-		keystroke "t"
-		delay 0.1
-		key code 36
-		delay 0.1
-	end tell
-
-	return input
-end run
-</string>
+					<string>on run {input, parameters}		tell application "iTerm" to activate		tell application "System Events"		keystroke "k" using command down		keystroke "#"		delay 0.0		keystroke " "		delay 0.1		keystroke "P"		delay 0.0		keystroke "e"		delay 0.1		keystroke "r"		delay 0.0		keystroke "f"		delay 0.1		keystroke "o"		delay 0.1		keystroke "r"		delay 0.1		keystroke "m"		delay 0.0		keystroke " "		delay 0.0		keystroke "a"		delay 0.1		keystroke " "		delay 0.1		keystroke "c"		delay 0.1		keystroke "o"		delay 0.1		keystroke "m"		delay 0.2		keystroke "p"		delay 0.0		keystroke "o"		delay 0.2		keystroke "s"		delay 0.2		keystroke "e"		delay 0.2		keystroke "r"		delay 0.0		keystroke " "		delay 0.0		keystroke "i"		delay 0.2		keystroke "n"		delay 0.2		keystroke "s"		delay 0.0		keystroke "t"		delay 0.1		keystroke "a"		delay 0.1		keystroke "l"		delay 0.0		keystroke "l"		delay 0.0		keystroke " "		delay 0.2		keystroke "w"		delay 0.2		keystroke "i"		delay 0.2		keystroke "t"		delay 0.2		keystroke "h"		delay 0.0		keystroke " "		delay 0.1		keystroke "D"		delay 0.2		keystroke "D"		delay 0.1		keystroke "E"		delay 0.0		keystroke "V"		delay 0.0		keystroke "-"		delay 0.0		keystroke "L"		delay 0.2		keystroke "o"		delay 0.2		keystroke "c"		delay 0.2		keystroke "a"		delay 0.0		keystroke "l"		delay 0.0		keystroke "."		delay 0.0		key code 36		delay 0.2		key code 36		delay 0.2		keystroke "d"		delay 0.2		keystroke "d"		delay 0.2		keystroke "e"		delay 0.1		keystroke "v"		delay 0.1		keystroke " "		delay 0.1		keystroke "c"		delay 0.2		keystroke "o"		delay 0.2		keystroke "m"		delay 0.1		keystroke "p"		delay 0.0		keystroke "o"		delay 0.1		keystroke "s"		delay 0.1		keystroke "e"		delay 0.2		keystroke "r"		delay 0.0		keystroke " "		delay 0.0		keystroke "c"		delay 0.1		keystroke "r"		delay 0.1		keystroke "e"		delay 0.0		keystroke "a"		delay 0.2		keystroke "t"		delay 0.2		keystroke "e"		delay 0.1		keystroke " "		delay 0.1		keystroke "d"		delay 0.0		keystroke "r"		delay 0.0		keystroke "u"		delay 0.1		keystroke "p"		delay 0.1		keystroke "a"		delay 0.2		keystroke "l"		delay 0.0		keystroke "-"		delay 0.2		keystroke "c"		delay 0.2		keystroke "o"		delay 0.1		keystroke "m"		delay 0.1		keystroke "p"		delay 0.0		keystroke "o"		delay 0.0		keystroke "s"		delay 0.2		keystroke "e"		delay 0.1		keystroke "r"		delay 0.2		keystroke "/"		delay 0.2		keystroke "d"		delay 0.0		keystroke "r"		delay 0.2		keystroke "u"		delay 0.2		keystroke "p"		delay 0.1		keystroke "a"		delay 0.1		keystroke "l"		delay 0.0		keystroke "-"		delay 0.1		keystroke "p"		delay 0.0		keystroke "r"		delay 0.2		keystroke "o"		delay 0.1		keystroke "j"		delay 0.2		keystroke "e"		delay 0.0		keystroke "c"		delay 0.2		keystroke "t"		delay 0.0		keystroke ":"		delay 0.1		keystroke "8"		delay 0.1		keystroke "."		delay 0.2		keystroke "x"		delay 0.1		keystroke "-"		delay 0.0		keystroke "d"		delay 0.1		keystroke "e"		delay 0.2		keystroke "v"		delay 0.0		keystroke " "		delay 0.2		keystroke "-"		delay 0.0		keystroke "-"		delay 0.2		keystroke "s"		delay 0.1		keystroke "t"		delay 0.0		keystroke "a"		delay 0.1		keystroke "b"		delay 0.1		keystroke "i"		delay 0.0		keystroke "l"		delay 0.1		keystroke "i"		delay 0.1		keystroke "t"		delay 0.2		keystroke "y"		delay 0.2		keystroke " "		delay 0.2		keystroke "d"		delay 0.1		keystroke "e"		delay 0.1		keystroke "v"		delay 0.2		keystroke " "		delay 0.1		keystroke "-"		delay 0.1		keystroke "-"		delay 0.2		keystroke "n"		delay 0.0		keystroke "o"		delay 0.1		keystroke "-"		delay 0.1		keystroke "i"		delay 0.0		keystroke "n"		delay 0.1		keystroke "t"		delay 0.2		keystroke "e"		delay 0.1		keystroke "r"		delay 0.2		keystroke "a"		delay 0.1		keystroke "c"		delay 0.2		keystroke "t"		delay 0.2		keystroke "i"		delay 0.1		keystroke "o"		delay 0.1		keystroke "n"		delay 0.0		keystroke " "		delay 0.2		keystroke "-"		delay 0.2		keystroke "-"		delay 0.2		keystroke "p"		delay 0.0		keystroke "r"		delay 0.2		keystroke "e"		delay 0.2		keystroke "f"		delay 0.0		keystroke "e"		delay 0.1		keystroke "r"		delay 0.1		keystroke "-"		delay 0.2		keystroke "d"		delay 0.1		keystroke "i"		delay 0.2		keystroke "s"		delay 0.1		keystroke "t"		delay 0.2		key code 36		delay 0.0	end tell		return inputend run</string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}		tell application "iTerm" to activate		tell application "System Events"		keystroke "k" using command down		keystroke "#"		delay 0.0		keystroke " "		delay 0.1		keystroke "P"		delay 0.0		keystroke "e"		delay 0.1		keystroke "r"		delay 0.0		keystroke "f"		delay 0.1		keystroke "o"		delay 0.1		keystroke "r"		delay 0.1		keystroke "m"		delay 0.0		keystroke " "		delay 0.0		keystroke "a"		delay 0.1		keystroke " "		delay 0.1		keystroke "c"		delay 0.1		keystroke "o"		delay 0.1		keystroke "m"		delay 0.2		keystroke "p"		delay 0.0		keystroke "o"		delay 0.2		keystroke "s"		delay 0.2		keystroke "e"		delay 0.2		keystroke "r"		delay 0.0		keystroke " "		delay 0.0		keystroke "i"		delay 0.2		keystroke "n"		delay 0.2		keystroke "s"		delay 0.0		keystroke "t"		delay 0.1		keystroke "a"		delay 0.1		keystroke "l"		delay 0.0		keystroke "l"		delay 0.0		keystroke " "		delay 0.2		keystroke "w"		delay 0.2		keystroke "i"		delay 0.2		keystroke "t"		delay 0.2		keystroke "h"		delay 0.0		keystroke " "		delay 0.1		keystroke "D"		delay 0.2		keystroke "D"		delay 0.1		keystroke "E"		delay 0.0		keystroke "V"		delay 0.0		keystroke "-"		delay 0.0		keystroke "L"		delay 0.2		keystroke "o"		delay 0.2		keystroke "c"		delay 0.2		keystroke "a"		delay 0.0		keystroke "l"		delay 0.0		keystroke "."		delay 0.0		key code 36		delay 0.2		key code 36		delay 0.2		keystroke "d"		delay 0.2		keystroke "d"		delay 0.2		keystroke "e"		delay 0.1		keystroke "v"		delay 0.1		keystroke " "		delay 0.1		keystroke "c"		delay 0.2		keystroke "o"		delay 0.2		keystroke "m"		delay 0.1		keystroke "p"		delay 0.0		keystroke "o"		delay 0.1		keystroke "s"		delay 0.1		keystroke "e"		delay 0.2		keystroke "r"		delay 0.0		keystroke " "		delay 0.0		keystroke "c"		delay 0.1		keystroke "r"		delay 0.1		keystroke "e"		delay 0.0		keystroke "a"		delay 0.2		keystroke "t"		delay 0.2		keystroke "e"		delay 0.1		keystroke " "		delay 0.1		keystroke "d"		delay 0.0		keystroke "r"		delay 0.0		keystroke "u"		delay 0.1		keystroke "p"		delay 0.1		keystroke "a"		delay 0.2		keystroke "l"		delay 0.0		keystroke "-"		delay 0.2		keystroke "c"		delay 0.2		keystroke "o"		delay 0.1		keystroke "m"		delay 0.1		keystroke "p"		delay 0.0		keystroke "o"		delay 0.0		keystroke "s"		delay 0.2		keystroke "e"		delay 0.1		keystroke "r"		delay 0.2		keystroke "/"		delay 0.2		keystroke "d"		delay 0.0		keystroke "r"		delay 0.2		keystroke "u"		delay 0.2		keystroke "p"		delay 0.1		keystroke "a"		delay 0.1		keystroke "l"		delay 0.0		keystroke "-"		delay 0.1		keystroke "p"		delay 0.0		keystroke "r"		delay 0.2		keystroke "o"		delay 0.1		keystroke "j"		delay 0.2		keystroke "e"		delay 0.0		keystroke "c"		delay 0.2		keystroke "t"		delay 0.0		keystroke ":"		delay 0.1		keystroke "8"		delay 0.1		keystroke "."		delay 0.2		keystroke "x"		delay 0.1		keystroke "-"		delay 0.0		keystroke "d"		delay 0.1		keystroke "e"		delay 0.2		keystroke "v"		delay 0.0		keystroke " "		delay 0.2		keystroke "-"		delay 0.0		keystroke "-"		delay 0.2		keystroke "s"		delay 0.1		keystroke "t"		delay 0.0		keystroke "a"		delay 0.1		keystroke "b"		delay 0.1		keystroke "i"		delay 0.0		keystroke "l"		delay 0.1		keystroke "i"		delay 0.1		keystroke "t"		delay 0.2		keystroke "y"		delay 0.2		keystroke " "		delay 0.2		keystroke "d"		delay 0.1		keystroke "e"		delay 0.1		keystroke "v"		delay 0.2		keystroke " "		delay 0.1		keystroke "-"		delay 0.1		keystroke "-"		delay 0.2		keystroke "n"		delay 0.0		keystroke "o"		delay 0.1		keystroke "-"		delay 0.1		keystroke "i"		delay 0.0		keystroke "n"		delay 0.1		keystroke "t"		delay 0.2		keystroke "e"		delay 0.1		keystroke "r"		delay 0.2		keystroke "a"		delay 0.1		keystroke "c"		delay 0.2		keystroke "t"		delay 0.2		keystroke "i"		delay 0.1		keystroke "o"		delay 0.1		keystroke "n"		delay 0.0		keystroke " "		delay 0.2		keystroke "-"		delay 0.2		keystroke "-"		delay 0.2		keystroke "p"		delay 0.0		keystroke "r"		delay 0.2		keystroke "e"		delay 0.2		keystroke "f"		delay 0.0		keystroke "e"		delay 0.1		keystroke "r"		delay 0.1		keystroke "-"		delay 0.2		keystroke "d"		delay 0.1		keystroke "i"		delay 0.2		keystroke "s"		delay 0.1		keystroke "t"		delay 0.2		key code 36		delay 0.0	end tell		return inputend run</string>
+					<key>temporary items path</key>
+					<string>/var/folders/54/17x8n1cx0k79phz13q3yrwhm0000gn/T/35BACEFA-BF6D-49C0-A7D1-0CEA36FEA8A4/1/com.apple.Automator.RunScript</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -530,7 +228,7 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>CAF2D37B-D0E1-46CE-9771-6309A080EA87</key>
+		<key>E075C574-3A63-42D9-8159-72DAAC01A1A6</key>
 		<dict>
 			<key>from</key>
 			<string>6A22D6E8-7DA1-4DE0-BE1E-A83342E57A73 - 6A22D6E8-7DA1-4DE0-BE1E-A83342E57A73</string>
